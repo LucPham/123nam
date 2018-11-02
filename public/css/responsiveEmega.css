@@ -1,0 +1,83 @@
+
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+}
+@media all and (min-width: 1025px)
+{
+	#postTitle {
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+		border: dashed 1px #F1A435
+	}
+	.blockWrapp {
+		width: 100%;
+		height: auto;
+		margin-top: 20px
+	}
+	.ckeditorWrapp {
+		width: 40%;
+		height: auto;
+		float: left;
+	}
+	.img {
+		width: 60%;
+		height: 723px;
+		padding-left: 20px;
+		background: #fff;
+		border: dashed 1px #F1A435;
+		float: left;
+	}
+	#box_tags {
+		display: none
+	}
+	#searchpreview {
+		min-height: 80px;
+		border: solid 0.5px #D2D1CF;
+		margin-top: 20px;
+		padding: 20px;
+		background: #fff;
+	}
+	#tableResult {
+		width: 100%;
+		font-size: 20px;
+	}
+	#emailResult {
+		padding-left: 20px;
+		color: #000;
+	}
+	#tags {
+		margin: 30px 0;
+	}
+	.wrapp_user_tag {
+		height: auto;
+		float: left;
+	}
+	#username {
+		width: auto;
+		height: 30px;
+		background: #fff;
+		text-align: center;
+		padding: 12px;
+		line-height: 3px;
+		border: solid 1px #024CD4;
+		border-radius: 20px 20px;
+		float: left;
+		font-size: 20px;
+
+	}
+	#delete {
+		width: 30px;
+		height: 30px;
+		font-weight: bold;
+		float: right;
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: -20px;
+		cursor: pointer;
+	}
+
+}

@@ -1,0 +1,78 @@
+body {
+		font-family: 'Pacifico', cursive;
+}
+@media all and (min-width: 1025px)
+{
+
+	#wrapp-1 {
+		width: 100%;
+		height: 480px;
+		background-color: #8F8B8B
+	}
+	#title {
+		width: 100%;
+		height: 90px;
+		text-align: center;
+	}
+	#title span {
+		font-size: 55px;
+		color: #fff;
+		font-family: 'Pacifico', cursive;
+	}
+	#countUser {
+		width: 100%;
+		height: 390px;
+		background-color: #fff;
+		text-align: center;
+		padding-top: 120px;
+	}
+	#countUser span {
+		font-size: 65px;
+		color: #DAE70A;
+		font-family: 'Pacifico', cursive;
+	}
+	/*--WRAPP 2--*/
+	#wrapp-2 {
+		width: 100%;
+		height: 590px;
+		margin-top: 40px;
+		background-color: #8F8B8B;
+	}
+	#gender-dashboard {
+		width: 100%;
+		height: 500px;
+		background-color: #fff;
+		padding:  120px 40px;
+	}
+	.wrap2-table {
+		border: none;
+	}
+	.td1 {
+		width: 90px;
+	}
+	.td2 {
+		width: 820px;
+	}
+	/*--/WRAPP 2--*/
+	#wrapp-3 {
+		width: 100%;
+		height: 590px;
+		margin-top: 40px;
+		background-color: #8F8B8B;
+	}
+	#old-mark {
+		width: 100%;
+		height: 500px;
+		padding:  120px 40px;
+		background-color: #fff;
+	}
+	.td31 {
+		width: 190px;
+	}
+	.td32 {
+		width: 770px;
+	}
+	.td33 {
+
+	}
+}

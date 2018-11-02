@@ -1,0 +1,17 @@
+#wrapp-img {
+	width: 100%;
+	margin: 0; padding: 0;
+	cursor: pointer
+}
+
+#wrapp-img img {
+	width: 100%
+}
+#caption {
+	padding: 0;
+	margin: 10px 0 15px 0;
+}
+#caption span {
+	font-weight: bold;
+	cursor: pointer
+}

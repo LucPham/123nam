@@ -1,0 +1,388 @@
+
+body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+
+
+@media all and (max-width: 320px)
+{
+	body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+	
+	#about {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #fff;
+		padding: 0px 8px;
+		font-size: 1.2em;
+		padding-right: 12px;
+		margin-top: 250px;
+		text-align: justify;
+		font-weight: bold;
+	}
+	#mainpage {
+		width: 100%;
+		height: auto;
+		display: block;
+		height: 100%;
+		position: absolute;
+		overflow-x: hidden;
+		top: 120px;
+		left: 0;
+		color: #fff;
+		z-index: 3;
+
+	}
+	#about h2 {
+		font-size: 2.5em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		text-transform: uppercase;
+	}
+	#mainpage nav {
+		display: none;
+	}
+	#closebtn {
+		display: none
+	}
+	#contentblock {
+		width: 90%;
+		margin: auto;
+		padding: 7px 3px;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	#dt-crt {
+		font-size: 12px;
+		font-weight: normal;
+		color: #E58100
+	}
+	
+}
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+
+	#about {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #fff;
+		padding: 0px 8px;
+		font-size: 1.2em;
+		padding-right: 12px;
+		margin-top: 350px;
+		text-align: justify;
+		position: relative;
+		font-weight: bold;
+	}
+	#mainpage {
+		width: 100%;
+		height: auto;
+		display: block;
+		height: 100%;
+		position: absolute;
+		overflow-x: hidden;
+		top: 130px;
+		left: 0;
+		color: #fff;
+		z-index: 3;
+	}
+	#about h2 {
+		font-size: 2.5em;
+		font-weight: bold;
+		margin-top: -40px;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		text-transform: uppercase;
+	}
+	#mainpage nav {
+		display: none;
+	}
+	#closebtn {
+		display: none
+	}
+	#contentblock {
+		width: 90%;
+		margin: auto;
+		padding: 7px 3px;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	#dt-crt {
+		font-size: 12px;
+		font-weight: normal;
+		color: #E58100
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+	
+	#about {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #fff;
+		padding: 0px 8px;
+		font-size: 1.2em;
+		padding-right: 12px;
+		margin-top: 430px;
+		text-align: justify;
+	}
+	#mainpage {
+		width: 100%;
+		height: auto;
+		display: block;
+		height: 100%;
+		position: absolute;
+		overflow-x: hidden;
+		top: 90px;
+		left: 0;
+		color: #fff;
+		z-index: 3;
+	}
+	#about h2 {
+		font-size: 2.5em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		text-transform: uppercase;
+	}
+	#mainpage nav {
+		display: none;
+	}
+	#closebtn {
+		display: none
+	}
+	#contentblock {
+		width: 100%;
+		padding: 10px;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	#dt-crt {
+		display: none
+	}
+	
+}
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+	
+	#about {
+		display: block;
+		width: 49%;
+		background: #fff;
+		position: absolute;
+		padding: 0px 8px;
+		font-size: 1.2em;
+		padding-right: 20px;
+		top: 70px;
+		left: 0;
+		height: 600px;
+		text-align: justify;
+		overflow-x: hidden;
+	}
+	#mainpage {
+		width: 100%;
+		height: auto;
+		display: block;
+		background: #473d47 url('../../icon/emegazine/bg.png');
+		min-height: 600px;
+		position: relative;
+		overflow-x: hidden;
+		top: 55px;
+		z-index: 2;
+		color: #fff;
+		left: 390px;
+	}
+	#mainpage nav {
+		position: absolute;
+		width: 240px;
+		min-height: 100%;
+		background: #343638;
+		padding: 0px 8px;
+		padding-top: 30px;
+	}
+	#mainpage nav h1 {
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		font-size: 2.85em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 11px;
+	}
+	#navigation {
+		list-style: none;
+	}
+	#navigation li { display: block; margin-bottom: 2px; font-size: 1.4em; font-weight: bold; }
+	#navigation li a { display: block; padding: 8px 6px; width: 100%; color: #d1e0f8; text-decoration: none; }
+	
+	#image {
+		width: 100%;
+		height: auto;
+		margin-top: 80px;
+	}
+	#image img {
+		width: 100%;
+	}
+	#contentblock {
+		width: 80%;
+		height: 300px;
+		margin: auto;
+		overflow-x: hidden;
+		padding: 12px;
+		font-size: 1.3em;
+	}
+	#dt-crt {
+		display: none
+	}
+}
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	body { font-family: Arial, Tahoma, sans-serif; line-height: 1; background: #fff; color: #343434; overflow-x: hidden; }
+	
+	#about {
+		display: block;
+		width: 34%;
+		background: #fff;
+		position: absolute;
+		padding: 0px 15px;
+		font-size: 1.2em;
+		padding-right: 25px;
+		top: 70px;
+		left: 0;
+		height: 600px;
+		text-align: justify;
+		overflow-x: hidden;
+	}
+	#mainpage {
+		width: 100%;
+		height: auto;
+		display: block;
+		background: #473d47 url('../../icon/emegazine/bg.png');
+		min-height: 600px;
+		position: relative;
+		overflow-x: hidden;
+		top: 70px;
+		z-index: 2;
+		color: #fff;
+		left: 390px;
+	}
+	#mainpage nav {
+		position: absolute;
+		width: 240px;
+		min-height: 100%;
+		background: #343638;
+		padding: 0px 8px;
+		padding-top: 30px;
+	}
+	#mainpage nav h1 {
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		font-size: 2.85em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 11px;
+	}
+	#navigation {
+		list-style: none;
+	}
+	#navigation li { display: block; margin-bottom: 2px; font-size: 1.4em; font-weight: bold; }
+	#navigation li a { display: block; padding: 8px 6px; width: 100%; color: #d1e0f8; text-decoration: none; }
+	
+	#image {
+		width: 100%;
+		height: auto;
+		margin-top: 80px;
+	}
+	#image img {
+		width: 100%;
+	}
+	#contentblock {
+		width: 80%;
+		height: 300px;
+		margin: auto;
+		overflow-x: hidden;
+		padding: 12px;
+		font-size: 1.3em;
+	}
+	#dt-crt {
+		display: none
+	}
+}
+@media all and (min-width: 1025px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	#about {
+		display: block;
+		width: 27%;
+		height: 720px;
+		background: #fff;
+		position: absolute;
+		padding: 0px 8px;
+		font-size: 1.3em;
+		padding-right: 18px;
+		top: 85px;
+		left: 0;
+		text-align: justify;
+		font-weight: bold;
+		overflow-x: hidden
+	}
+	#mainpage {
+		width: 100%;
+		display: block;
+		background: #473d47 url('../../icon/emegazine/bg.png');
+		min-height: 600px;
+		position: relative;
+		z-index: 2;
+		color: #fff;
+		left: 390px;
+
+	}
+	#mainpage nav {
+		position: absolute;
+		width: 240px;
+		min-height: 720px;
+		background: #343638;
+		padding: 0px 8px;
+		padding-top: 30px;
+		z-index: 3;
+	}
+	#mainpage nav h1 {
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+		font-size: 2.85em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 11px;
+	}
+	#content img{
+		height: 100%;
+		z-index: 1;
+		float: right;
+	}
+	#navigation {
+		list-style: none;
+	}
+	#navigation li { display: block; margin-bottom: 2px; font-size: 1.4em; font-weight: bold; }
+	#navigation li a { display: block; padding: 8px 6px; width: 100%; color: #d1e0f8; text-decoration: none; }
+	
+	#image {
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+	#image img {
+		width: 100%;
+	}
+	#contentblock {
+		width: 80%;
+		height: auto;
+		margin: auto;
+		padding: 12px;
+		font-size: 1.3em;
+	}
+	#img-preview {
+		height: 500px;
+	}
+	#dt-crt {
+		display: none
+	}
+}

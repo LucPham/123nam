@@ -1,0 +1,184 @@
+
+.web
+{
+	width: 460px;
+	height: 600px;
+	margin: auto;
+	background-color: #CFACD8
+}
+.left
+{
+	width: 60px;
+	height: 500px;
+	position: fixed;
+	left: px;
+	background-color: #1DAE35
+}
+.right
+{
+	width: 60px;
+	height: 500px;
+	position: fixed;
+	float: right;
+	background-color: #1DAE35
+}
+.main
+{
+	width: 100%;
+	height: 500px;
+	background-color: #FB7E19;
+	margin: auto;
+}
+
+
+body 
+{
+	font-family: 'Merriweather', Georgia, serif;
+	background-color: #F2EDED
+}
+.content
+{
+	margin-top: 40px;
+}
+#tieu_de 
+{
+	font-weight: bold;
+	padding: 2px;
+}
+#tom_tat
+{
+	width: 100%;
+	height: 50px;
+}
+#hinh
+{
+	display: none;
+}
+.imgFeedback
+{
+	width: 100%;
+	
+}
+#ghim_bai
+{
+	float: right;
+}
+#tom_tat
+{
+	min-height: 115px
+}
+hr
+{
+	border-color: #1D1D1D
+}
+#upload_file_button
+{
+	width: 100%;
+	height: 60px;
+	background-color: #68c62d;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+}
+.date_of_post
+{
+	color: #F84600;
+	font-size: 11px;
+}
+.title_of_news_list
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: #FA4811;
+}
+
+.popup
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	background-color: rgba(0,0,0,0.75);
+}
+.popup-inner
+{
+	max-width: 700px;
+	width: 70%;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: solid 1px #6E0192;
+	color: #A401DA;
+	text-align: center;
+	-webkit-transform:translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    background: #fff; 
+
+ } 
+ .popup-close {     
+    width: 30px;     
+    height: 30px;
+	padding-top: 4px;     
+	display: inline-block;     
+	position: absolute;     
+	top: 0px;     
+	right: 0px;     
+	transition: ease 0.25s all;     
+	-webkit-transform:translate(50%, -50%);     
+	border-radius: 1000px;         
+	font-family: Arial, Sans-Serif;     
+	font-size: 20px;
+	text-align: center;     
+	line-height: 100%;     
+	color: #fff 
+}
+.popup-close:hover
+{
+	text-decoration: none;
+}
+#co
+{
+	width: 90px;
+	height: 20px;
+	background-color: #A137EC;
+	color: #fff;
+}
+#yes
+{
+	font-weight: bold;
+}
+.loading
+{
+	display: none;
+}
+#albumName
+{
+	height: 50px;
+	margin: 20px 0;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+.album
+{
+	padding: 30px 0px;
+	width: 100%;
+	clear: both;
+}
+.edit_title
+{
+	color: #000000;
+}
+.edit_title:hover
+{
+	text-decoration: none;
+	color: #0016B7
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}

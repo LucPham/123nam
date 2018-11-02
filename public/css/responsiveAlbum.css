@@ -1,0 +1,689 @@
+body {
+	font-family: 'Open Sans',arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.dateText {
+		font-size: 11px;
+		color: #E3AB00;
+	}
+.footer {
+	padding: 20px;
+	background-color: #E1DFDF;
+	text-align: center
+}
+@media all and (max-width: 320px) {
+	body {
+		font-size: 18px;
+	}
+	#container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #837E7E;
+	}
+	#sideLeft,
+	#sideRight {
+		display: none;
+	}
+	#content {
+		width: 100%;
+		height: auto;
+		background-color: #FFFFFF;
+		margin-top: 70px;
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+	}
+	#album-title {
+		padding: 10px;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+	}
+	#date {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+		font-size: 12px;
+		color: #BBBBBB
+	}
+	#fb-api-content {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+	}
+	#caption-item {
+		width: 100%;
+		padding: 9px;
+		font-weight: bold;
+	}
+	#keyword {
+		width: 90%;
+		height: auto;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		height: auto;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		color: #fff;
+		margin-top: 60px;
+		margin-left: 3px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		padding:  10px;
+		margin-top: 20px;
+	}
+	#latest-item-img {
+		width: 30%;
+		float: left;
+	}
+	#latest-item {
+		width: 90%;
+		min-height: 140px;
+		margin-left: 10px;
+		font-size: 16px;
+		padding-left: 90px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}
+@media all and (min-width: 321px) and (max-width: 480px) {
+	body {
+		font-size: 18px;
+	}
+	#container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #837E7E;
+	}
+	#sideLeft,
+	#sideRight {
+		display: none;
+	}
+	#content {
+		width: 100%;
+		height: auto;
+		background-color: #FFFFFF;
+		margin-top: 70px;
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+	}
+	#album-title {
+		padding: 10px;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+	}
+	#date {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+		font-size: 12px;
+		color: #BBBBBB
+	}
+	#fb-api-content {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+	}
+	#caption-item {
+		width: 100%;
+		padding: 9px;
+		font-weight: bold;
+	}
+	#keyword {
+		width: 95%;
+		height: auto;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		margin: 40px 0;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		color: #fff;
+		margin-top: 60px;
+		margin-left: 3px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		padding:  10px;
+		margin-top: 20px;
+	}
+	#latest-item-img {
+		width: 30%;
+		float: left;
+	}
+	#latest-item {
+		width: 69%;
+		min-height: 140px;
+		margin-left: 115px;
+		font-size: 16px;
+		padding-left: 10px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px) {
+	body {
+		font-size: 18px;
+	}
+	#container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #837E7E;
+	}
+	#sideLeft,
+	#sideRight {
+		display: none;
+	}
+	#content {
+		width: 100%;
+		height: auto;
+		background-color: #FFFFFF;
+		margin-top: 70px;
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+	}
+	#album-title {
+		padding: 10px;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+	}
+	#date {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+		font-size: 12px;
+		color: #BBBBBB
+	}
+	#fb-api-content {
+		width: 100%;
+		padding: 5px 10px 10px 15px;
+	}
+	#caption-item {
+		width: 100%;
+		padding: 9px;
+		font-weight: bold;
+	}
+	#keyword {
+		width: 100%;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		margin: 40px 0;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		color: #fff;
+		margin-top: 60px;
+		margin-left: 3px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		padding:  10px;
+		margin-top: 20px;
+	}
+	#latest-item-img {
+		width: 30%;
+		float: left;
+	}
+	#latest-item {
+		width: 90%;
+		min-height: 140px;
+		margin-left: 55px;
+		font-size: 16px;
+		padding-left: 120px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}
+@media all and (min-width: 601px) and (max-width: 800px) {
+	body {
+		font-size: 18px;
+	}
+	#container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #837E7E;
+	}
+	#sideLeft,
+	#sideRight {
+		display: none;
+	}
+	#content {
+		width: 100%;
+		height: auto;
+		margin-top: 70px;
+		background-color: #FFFFFF;
+		
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+	}
+	#album-title {
+		padding: 20px 12px;
+		font-size: 35px;
+		text-align: center;
+		margin: 30px 0;
+		font-weight: bold;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+	}
+	#date {
+		width: 100%;
+		padding: 12px 70px;
+		font-size: 12px;
+		color: #BBBBBB
+	}
+	#fb-api-content {
+		width: 100%;
+		padding: 12px 70px;
+	}
+	#img-item img {
+		margin: auto
+	}
+	#caption-item {
+		width: 90%;
+		padding: 9px;
+		margin: auto;
+		font-weight: bold;
+	}
+	#keyword {
+		width: 90%;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		margin: 40px 0;
+		padding: 20px;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		color: #fff;
+		margin-top: 60px;
+		margin-left: 3px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		padding:  10px;
+		margin-top: 20px;
+	}
+	#latest-item-img {
+		width: 25%;
+		float: left;
+	}
+	#latest-item {
+		width: 75%;
+		min-height: 150px;
+		margin-left: 150px;
+		font-size: 16px;
+		padding-left: 50px;
+		padding-top: 3px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}
+@media all and (min-width: 801px) and (max-width: 1024px) {
+	#container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #E1DFDF;
+	}
+	#content {
+		width: 100%;
+		margin: auto;
+		padding: 5px;
+		margin-top: 70px;
+		background-color: #fff;
+	}
+	#sideLeft,
+	#sideRight {
+		display: none
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+		background-color: #0A0A0A
+	}
+	#album-title {
+		width: 60%;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+	}
+	#wrapp-date-fb {
+		width: 100%;
+
+	}
+	#date {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		padding-left: 85px;
+		font-size: 12px;
+		color: #8C8A8A;
+	}
+	#fb-api-content {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		text-align: right;
+		padding-right: 40px;
+	}
+	#img-item img {
+		margin: auto;
+	}
+	#caption-item {
+		width: 75%;
+		margin: auto;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#keyword {
+		width: 75%;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		padding: 20px;
+		width: 100%;
+		height: auto;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		margin: 32px 0;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		width: 75%;
+		height: auto;
+		margin: auto;
+	}
+	#latest-item-img {
+		width: 20%;
+		float: left;
+	}
+	#latest-item {
+		width: 80%;
+		height: 140px;
+		margin-left:160px;
+		font-size: 19px;
+		padding-left: 8px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}
+@media all and (min-width: 1025px) {
+	#container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #E1DFDF;
+	}
+	#content {
+		width: 1024px;
+		margin: auto;
+		padding: 5px;
+		margin-top: 70px;
+		background-color: #fff;
+		z-index: 400;
+	}
+	#sideLeft {
+		width: 160px;
+		height: 100%;
+		position: fixed;
+		top: 42px;
+		margin-left: -169px;
+		z-index: 200;
+	}
+	#sideRight {
+		width: 160px;
+		height: 100%;
+		position: fixed;
+		top: 42px;
+		margin-left: 1022px;
+		z-index: 200;
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+		background-color: #0A0A0A
+	}
+	#album-title {
+		width: 75%;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#overview {
+		width: 100%;
+		padding-left: 85px;
+		padding-right: 60px;
+		font-weight: bold;
+	}
+	#wrapp-date-fb {
+		width: 100%;
+
+	}
+	#date {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		padding-left: 85px;
+		font-size: 12px;
+		color: #8C8A8A;
+	}
+	#fb-api-content {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		text-align: right;
+		padding-right: 40px;
+	}
+	#img-item img {
+		margin: auto;
+	}
+	#caption-item {
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 40px;
+		font-weight: bold;
+	}
+	#keyword {
+		width: 100%;
+		height: auto;
+		padding-left: 50px;
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	#tagtitle {
+		width: 100%;
+		height: 30px;
+		margin-top: 102px;
+		text-align: left;
+	}
+	#kw-content {
+		width: 78%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		padding: 20px;
+		width: 100%;
+		height: auto;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		margin: 32px 0;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		width: 75%;
+		height: auto;
+		margin: auto;
+	}
+	#latest-item-img {
+		width: 20%;
+		float: left;
+	}
+	#latest-item {
+		width: 80%;
+		height: 140px;
+		margin-left:160px;
+		font-size: 19px;
+		padding-left: 8px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}
+}

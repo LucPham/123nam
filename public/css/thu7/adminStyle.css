@@ -1,0 +1,162 @@
+/*--------Admin Style---------*/
+@media all and (max-width: 320px)
+{
+	.btn-mb {display: block; margin-bottom: 40px; margin-top: 32px; text-align: right}
+	#submit {display: none}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 90%; height: auto; position: fixed; top: 110px; left: 16px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	.btn-mb {display: block; margin-bottom: 40px; margin-top: 32px; text-align: right}
+	#submit {display: none}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 90%; height: auto; position: fixed; top: 110px; left: 16px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	.btn-mb {display: block; margin-bottom: 40px; margin-top: 32px; text-align: right}
+	#submit {display: none}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 90%; height: auto; position: fixed; top: 110px; left: 16px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	.btn-mb {display: block; margin-bottom: 40px; margin-top: 32px; text-align: right}
+	#submit {display: none}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 90%; height: auto; position: fixed; top: 110px; left: 16px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	.btn-mb {display: block; margin-bottom: 40px; margin-top: 32px; text-align: right}
+	#submit {display: none}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 50%; height: auto; position: fixed; top: 210px; left: 211px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+@media all and (min-width: 1025px)
+{
+	#thu7-wrapp {
+		width: 100%;
+		height: auto;
+		background: #04A164;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	#topic-name {
+		width: 100%;
+		height: 60px;
+		background: #077C54;
+		position: fixed;
+		padding: 15px;
+		top: 72px;
+		left: 421px;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	#topic-name span {
+		color:  #fff;
+		font-size: 19px;
+		font-weight: bold;
+	}
+	#option-nav {
+		width: 420px;
+		height: 100%;
+		background: #171616;
+		position: fixed;
+		left: 0;
+		top: 72px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 3px;
+		overflow-x: scroll;
+	}
+	#places {
+		height: 50px;
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	#date {
+		margin-top: 20px;
+		background: #0E7278
+	}
+	#datepicker {
+		height: 50px;
+	}
+	#keysearch-div {
+		margin-top: 30px;
+	}
+	#submit {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 120px;
+	}
+	.btn-mb {display: none}
+	#form-wrapp {
+		width: 69%;
+		height: 100%;
+		overflow: scroll;
+		position: fixed;
+		left: 421px;
+		top: 133px;
+	}
+	#description-div {
+		margin-top:  40px;
+		margin-bottom: 120px;
+		float: bottom;
+	}
+	#description-div textarea {height: 220px}
+	#coverImg {
+		width: 100%;
+		height: auto;
+	}
+	#avatarImg {
+		position: absolute;
+		width: 260px;
+		height: 260px;
+		border-radius: 50%;
+		right: 9px;
+		top: 72px;
+	}
+	.wrapp {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.4); display: none}
+	.box {display: none; width: 420px; height: 110px; position: fixed; top: 220px; left: 395px; border: solid 0.5px grey; background: #fff; z-index: 400; padding: 12px;}
+	.box .txt {width: 100%; height: auto; text-align: center}
+	.box .txt span {font-size: 25px;}
+	.box .btn-option {width: 100%; height: auto; text-align: center; padding-top: 12px;}
+	.box .btn-option .cancel {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px; margin-right: 42px; background: #fff}
+	.box .btn-option .sure {border: solid 0.5px grey; border-radius: 12px 12px; padding: 5px 9px;  background: #fff}
+}
+#url {width: 100%; margin-top: 12px}
+.coverImg, .avatarImg {cursor: pointer; display: none}
+.delete {cursor: pointer;}
+
+.box .btn-option .cancel:hover {background: #f0ad4e; color: #fff; font-weight: bold; border: none}
+.box .btn-option .sure:hover {background: #f0ad4e; color: #fff; font-weight: bold; border: none}

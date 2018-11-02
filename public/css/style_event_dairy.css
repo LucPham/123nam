@@ -1,0 +1,114 @@
+@media all and (max-width: 320px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}
+@media all and (min-width: 1025px)
+{
+	.title_thang
+	{
+		width: 90%;
+		height: 35px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 20px;
+		
+	}
+	.sk_item
+	{
+		padding: 10px 10px 0;
+		border: dashed 1px #6A6868;
+		font-family: inherit;
+		background-color: #F4F0DB
+	}
+}

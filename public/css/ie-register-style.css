@@ -1,0 +1,21 @@
+/*--REGISTER LAYOUT--*/
+#ie-register-wrapp {
+	margin-bottom: 140px\9;
+}
+#fieldName {
+	width: 100%;
+	margin-top: 20px;
+	padding: 0;
+}
+#fieldNameHoten {
+	width: 60%;
+	float: left;
+}
+#fieldNameTen {
+	width: 39%;
+	float: left;
+}
+#fieldRow {
+	width: 100%;
+	margin: 10px 0;
+}

@@ -1,0 +1,701 @@
+#keyword {
+	
+	padding:  10px;
+}
+#kw-content {
+	padding: 20px;
+	background-color: #E3DFDF;
+	color: #959393;
+	font-size: 14px;
+	margin-top: 12px;
+	margin-bottom: 33px;
+}
+.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+@media all and (max-width: 320px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 18px;
+		text-align: justify;
+	}
+	.side-left-detail
+	{
+		display: none;
+	}
+	.side-right-detail
+	{
+		display: none;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		padding: 10px 10px 10px 0;
+		background-color: #BBFBB0
+	}
+	.hinh_anh_img a img
+	{
+		height: 90px;
+		margin-top: 20px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	/* CSS SURVEY */
+	#survey_wrapp_div
+	{
+		margin: 60px 0;
+		padding: 0;
+		border: solid 1px #68c62d;
+	}
+	#survey_title_div
+	{
+		padding: 10px 0 10px 5px;
+		font-size: 20px;
+		color: #FFFFFF;
+		background-color: #817F7F
+	}
+	#survey_question_div
+	{
+		padding: 10px 5px;
+		font-size: 18px;
+		font-weight: bold;	
+	}
+	#list_answer
+	{
+		font-size: 16px;
+	}
+	.surveyBtnSend
+	{
+		margin: 20px 5px 3px 0;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		border: solid 2px #68c62d;
+		float: right;
+		width: 120px;
+		height: 30px;
+	}
+	.block_title_related_post
+	{
+		width: 90%;
+		height: 30px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 16px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+}
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 28px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 18px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 18px;
+		text-align: justify;
+	}
+	.side-left-detail
+	{
+		display: none;
+	}
+	.side-right-detail
+	{
+		display: none;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		padding: 10px 10px 10px 0;
+		background-color: #BBFBB0
+	}
+	.hinh_anh_img a img
+	{
+		height: 110px;
+		margin-top: 20px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	/* CSS SURVEY */
+	#survey_wrapp_div
+	{
+		overflow-x: hidden;
+		margin: 40px 0;
+		padding: 0;
+		border: solid 1px #68c62d;
+	}
+	#survey_title_div
+	{
+		padding: 10px 0 10px 5px;
+		font-size: 20px;
+		color: #FFFFFF;
+		background-color: #817F7F
+	}
+	#survey_question_div
+	{
+		padding: 10px 5px;
+		font-size: 18px;
+		font-weight: bold;
+
+	}
+	#list_answer
+	{
+		font-size: 16px;
+	}
+	.surveyBtnSend
+	{
+		margin: 20px 5px 3px 0;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		border: solid 2px #68c62d;
+		float: right;
+		width: 120px;
+		height: 30px;
+	}
+	.block_title_related_post
+	{
+		width: 80%;
+		height: 35px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 18px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.side-left-detail
+	{
+		display: none;
+	}
+	.side-right-detail
+	{
+		display: none;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin-left: 10px;
+		padding: 10px 5px;
+		background-color: #BBFBB0
+	}
+	.hinh_anh_img a img
+	{
+		height: 120px;
+		margin-top: 20px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	/* CSS SURVEY */
+	#survey_wrapp_div
+	{
+		margin: 40px 0;
+		padding: 0;
+		border: solid 1px #68c62d;
+	}
+	#survey_title_div
+	{
+		padding: 10px 0 10px 5px;
+		font-size: 20px;
+		color: #FFFFFF;
+		background-color: #817F7F
+	}
+	#survey_question_div
+	{
+		padding: 10px 5px;
+		font-weight: bold;	
+	}
+	.surveyBtnSend
+	{
+		margin: 20px 5px 3px 0;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		border: solid 2px #68c62d;
+		float: right;
+		width: 120px;
+		height: 30px;
+	}
+	.block_title_related_post
+	{
+		width: 320px;
+		height: 35px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 18px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+}
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 28px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.row_chitiet
+	{
+		z-index: 400
+	}
+	.side-left-detail
+	{
+		display: none;
+	}
+	.side-right-detail
+	{
+		display: none;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin-left: 10px;
+		background-color: #BBFBB0
+	}
+	.hinh_anh_img a img
+	{
+		height: 120px;
+		margin-top: 20px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	/* CSS SURVEY */
+	#survey_wrapp_div
+	{
+		margin: 70px 0;
+		padding: 0;
+		border: solid 1px #68c62d;
+	}
+	#survey_title_div
+	{
+		padding: 10px 0 10px 5px;
+		font-size: 20px;
+		color: #FFFFFF;
+		background-color: #817F7F
+	}
+	#survey_question_div
+	{
+		padding: 10px 5px;
+		font-weight: bold;	
+	}
+	.surveyBtnSend
+	{
+		margin: 20px 5px 3px 0;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		border: solid 2px #68c62d;
+		float: right;
+		width: 120px;
+		height: 30px;
+	}
+	.block_title_related_post
+	{
+		width: 420px;
+		height: 35px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 20px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	#latestPost{
+		display: none;
+	}
+	.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+}
+@media all and (min-width: 801px) and (max-width: 1024px)
+{	
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		padding-left: 5px;
+		font-size: 16px;
+		text-align: justify;
+	}
+	.side-left-detail
+	{
+		display: none;
+	}
+	.side-right-detail
+	{
+		display: none;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin-left: 10px;
+		background-color: #BBFBB0
+	}
+	.hinh_anh_img a img
+	{
+		height: 120px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	.block_title_related_post
+	{
+		width: 420px;
+		height: 35px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 20px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	/* CSS SURVEY */
+	#survey_wrapp_div
+	{
+		margin: 70px 0;
+		padding: 0;
+		border: solid 1px #68c62d;
+	}
+	#survey_title_div
+	{
+		padding: 10px 0 10px 5px;
+		font-size: 20px;
+		color: #FFFFFF;
+		background-color: #817F7F
+	}
+	#survey_question_div
+	{
+		padding: 10px 5px;
+		font-weight: bold;	
+	}
+	.surveyBtnSend
+	{
+		margin: 20px 5px 3px 0;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		border: solid 2px #68c62d;
+		float: right;
+		width: 120px;
+		height: 30px;
+	}
+	#latestPost {
+		width: 400px\9;
+		height: auto;
+		float: left;
+	}
+	.tieu_de_tin_moi_nhat img {
+		width: 100%;
+		height: auto;
+	}
+	.overview {
+		padding: 5px;
+	}
+	.main_content {
+		padding:  5px;
+	}
+}
+@media all and (min-width: 1025px)
+{
+	body {
+		overflow-x: hidden;
+	}
+	.detail_title
+	{
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.more
+	{
+		font-size: 12px;
+		color: #137705;
+		font-weight: bold;
+	}
+	.overview
+	{
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+	.detail_content
+	{
+		font-size: 16px;
+		padding-left: 5px;
+		text-align: justify;
+	}
+	.side-left-detail
+	{
+		width: 160px;
+		height: 600px;
+		top: 0px;
+		margin-left: -162px;
+		position: absolute;
+	}
+	.side-left-fixed-top
+	{
+		width: 160px;
+		height: 650px;
+		top: 0;
+		margin-left: -162px;
+		position: fixed;
+		z-index: 300;
+	}
+	.side-right-detail
+	{
+		width: 160px;
+		height: 600px;
+		position: absolute;
+		top: 0px;
+		margin-left: 1032px;
+		z-index: 300;
+	}
+	.side-right-fixed-top
+	{
+		width: 160px;
+		height: 650px;
+		position: fixed;
+		top: 0;
+		margin-left: 1032px;
+		z-index: 300;
+	}
+	.de_xuat
+	{
+		width: 90%;
+		height: auto;
+		margin: 0 0 20px 20px;
+		padding: 5px 10px;
+		background-color: #BBFBB0
+	}
+	.de_xuat ul li a:hover
+	{
+		color: #0C0C0C
+	}
+	.hinh_anh_img a img
+	{
+		height: 120px;
+	}
+	.hinh_anh_title
+	{
+		margin-top: 20px;
+	}
+	.hinh_anh_title a
+	{
+		font-weight: bold;
+	}
+	.block_title_related_post
+	{
+		width: 420px;
+		height: 35px;
+		line-height: 35px;
+		background-color: #68c62d;
+		color: #ffffff;
+		font-size: 20px;
+		margin:  0;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	#latestPost {
+		width: 400px\9;
+		height: auto;
+		float: left;
+	}
+	.tieu_de_tin_moi_nhat img {
+		width: 119px;
+		height: 88px;
+	}
+	
+}

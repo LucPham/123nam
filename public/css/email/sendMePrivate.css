@@ -1,0 +1,64 @@
+@media all and (max-width: 320px)
+		{
+			body {
+				margin: 0;
+				padding: 0;
+				overflow-y: hidden
+			}
+			#wrapp {width: 90%;height: auto;background: #BCBABA;padding-top: 30px; overflow-y: hidden}
+			#body {width: 95%;height: 350px;background: #FFF;}
+			#logoweb {width: 95%;height: auto;}
+			#titlemail {width: 100%;height: auto;padding-top: 10px;border-bottom: solid 4px #04B429}
+			#titlemail span {text-transform: uppercase;font-size: 25px;}
+		}
+		@media all and (min-width: 321px) and (max-width: 480px)
+		{
+			body {
+				margin: 0;
+				padding: 0;
+				overflow-y: hidden
+			}
+			#wrapp {width: 90%;height: auto;background: #BCBABA;padding-top: 30px; overflow-y: hidden}
+			#body {width: 95%;height: 350px;background: #FFF;}
+			#logoweb {width: 95%;height: auto;}
+			#titlemail {width: 100%;height: auto;padding-top: 10px;border-bottom: solid 4px #04B429}
+			#titlemail span {text-transform: uppercase;font-size: 25px;}
+		}
+		@media all and (min-width: 481px) and (max-width: 600px)
+		{
+			body {
+				margin: 0;
+				padding: 0;
+				overflow-y: hidden
+			}
+			#wrapp {width: 90%;height: auto;background: #BCBABA;padding-top: 30px; overflow-y: hidden}
+			#body {width: 95%;height: 350px;background: #FFF;}
+			#logoweb {width: 95%;height: auto;}
+			#titlemail {width: 100%;height: auto;padding-top: 10px;border-bottom: solid 4px #04B429}
+			#titlemail span {text-transform: uppercase;font-size: 25px;}
+		}
+		@media all and (min-width: 601px) and (max-width: 800px)
+		{
+			body {
+				margin: 0;
+				padding: 0;
+				overflow-y: hidden
+			}
+			#wrapp {width: 90%;height: auto;background: #BCBABA;padding-top: 30px; overflow-y: hidden}
+			#body {width: 95%;height: 350px;background: #FFF;}
+			#logoweb {width: 95%;height: auto;}
+			#titlemail {width: 100%;height: auto;padding-top: 10px;border-bottom: solid 4px #04B429}
+			#titlemail span {text-transform: uppercase;font-size: 25px;}
+		}
+		@media all and (min-width: 801px) and (max-width: 1024px)
+		{
+			
+		}
+		@media all and (min-width: 1025px)
+		{
+			#wrapp {width: 100%;min-height: 900px;background: #BCBABA;padding: 20px;padding-top: 80px;}
+			#body {width: 80%;height: 750px;background: #FFF;margin: auto;}
+			#logoweb {width: 320px;height: auto;padding: 20px;}
+			#titlemail {width: 100%;height: auto;padding-top: 10px;border-bottom: solid 4px #04B429}
+			#titlemail span {text-transform: uppercase;font-size: 45px;margin-left: 8px;}
+		}

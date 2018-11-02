@@ -1,0 +1,140 @@
+/*------
+ * Relative Post
+	
+------------*/
+body {font-family: Roboto}
+@media all and (max-width: 320px)
+{
+	.post-meta {height: 50px; padding-top: 29px; background: #E7F6F3; border-left: solid 6px #1ABC9C}	
+	.entry-meta {width: 100%; text-align: center; line-height: 0px}
+	.entry-meta time {padding-right: 20px; font-size: 18px; font-weight: 500; text-transform: uppercase}
+	.entry-meta time strong {padding: 0 20px;}
+	.entry-meta .comments_count {display: none}
+	
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+
+}
+
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	.post-meta {height: 50px; padding-top: 29px; background: #E7F6F3; border-left: solid 6px #1ABC9C}	
+	.entry-meta {width: 100%; text-align: center; line-height: 0px}
+	.entry-meta time {padding-right: 20px; font-size: 18px; font-weight: 500; text-transform: uppercase}
+	.entry-meta time strong {padding: 0 20px;}
+	.entry-meta .comments_count {display: none}
+	
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+}
+
+
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	.post-meta {height: 50px; padding-top: 29px; background: #E7F6F3; border-left: solid 6px #1ABC9C}	
+	.entry-meta {width: 100%; text-align: center; line-height: 0px}
+	.entry-meta time {padding-right: 20px; font-size: 18px; font-weight: 500; text-transform: uppercase}
+	.entry-meta time strong {padding: 0 20px;}
+	.entry-meta .comments_count {display: none}
+	
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+}
+
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	.post-meta {height: auto; padding-top: 29px;}
+	.entry-meta {width: 102px; height: 100%; margin: auto; background: #E7F6F3; border-top: solid 2px #1ABC9C;text-align: center }
+	.entry-meta time {
+		width: 100%;
+		text-align: center;
+		padding-top:20px;
+		padding-bottom: 36px;
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		text-transform: uppercase
+	}
+	.entry-meta time strong {display: block}
+	.entry-meta .comments_count {
+		width: 100%;
+		height: 50px;
+		background: #1ABC9C;
+		display: block;
+		padding-top: 13px;
+		text-decoration: none; color: #fff; font-size: 18px; font-weight: 500
+	}
+
+
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+}
+
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	.post-meta {height: auto; padding-top: 29px;}
+	.entry-meta {width: 102px; height: 100%; margin: auto; background: #E7F6F3; border-top: solid 2px #1ABC9C;text-align: center }
+	.entry-meta time {
+		width: 100%;
+		text-align: center;
+		padding-top:20px;
+		padding-bottom: 36px;
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		text-transform: uppercase
+	}
+	.entry-meta time strong {display: block}
+	.entry-meta .comments_count {
+		width: 100%;
+		height: 50px;
+		background: #1ABC9C;
+		display: block;
+		padding-top: 13px;
+		text-decoration: none; color: #fff; font-size: 18px; font-weight: 500
+	}
+
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+}
+
+@media all and (min-width: 1025px)
+{
+	.post-meta {height: auto; padding-top: 29px;}
+	.entry-meta {width: 111px; height: 100%; margin: auto; background: #E7F6F3; border-top: solid 2px #1ABC9C;text-align: center }
+	.entry-meta time {
+		width: 100%;
+		text-align: center;
+		padding-top: 22px;
+		padding-bottom: 40px;
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		text-transform: uppercase
+	}
+	.entry-meta time strong {display: block}
+	.entry-meta .comments_count {
+		width: 100%;
+		height: 50px;
+		background: #1ABC9C;
+		display: block;
+		padding-top: 13px;
+		text-decoration: none; color: #fff; font-size: 18px; font-weight: 500
+	}
+
+	
+	.header {padding: 13px 0;}
+	.header h1 a {text-decoration: none; color: #4E4747;}
+	.header h1 a:hover {color: #adc648;}
+	.entry-content {padding: 8px 0;}
+}

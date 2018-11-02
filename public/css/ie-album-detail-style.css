@@ -1,0 +1,126 @@
+/*--ALUM DETAIL--*/
+#container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #E1DFDF;
+	}
+	#content {
+		width: 1024px;
+		margin: auto;
+		padding: 5px;
+		margin-top: 70px;
+		background-color: #fff;
+		z-index: 400;
+	}
+	#sideLeft {
+		width: 160px;
+		height: 100%;
+		position: fixed;
+		top: 42px;
+		margin-left: -169px;
+		z-index: 200;
+	}
+	#sideRight {
+		width: 160px;
+		height: 100%;
+		position: fixed;
+		top: 42px;
+		margin-left: 1022px;
+		z-index: 200;
+	}
+	#footer {
+		width: 100%;
+		height: auto;
+		background-color: #0A0A0A
+	}
+	#album-title {
+		width: 75%;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#wrapp-date-fb {
+		width: 100%;
+
+	}
+	#date {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		padding-left: 85px;
+		font-size: 12px;
+		color: #8C8A8A;
+	}
+	#fb-api-content {
+		width: 50%;
+		margin: 10px 0;
+		float: left;
+		text-align: right;
+		padding-right: 40px;
+	}
+	#img-item img {
+		margin: auto;
+	}
+	#caption-item {
+		width: 75%;
+		margin: auto;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#keyword {
+		width: 75%;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	#kw-content {
+		width: 100%;
+		font-size: 12px;
+		background-color: #EDEBEB;
+		padding:  30px;
+		color: #7E7B7B
+	}
+	#wrapp-latest {
+		padding: 20px;
+		width: 100%;
+		height: auto;
+	}
+	#topic-title {
+		padding: 7px;
+		width: 170px;
+		margin: 32px 0;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		box-shadow: 5px 5px #CDCCCC;
+		background-color: #FCB52C
+	}
+	#body-latest {
+		width: 75%;
+		height: auto;
+		margin: auto;
+	}
+	#latest-item-img {
+		width: 20%;
+		float: left;
+	}
+	#latest-item {
+		width: 80%;
+		height: 140px;
+		margin-left:160px;
+		font-size: 19px;
+		padding-left: 8px;
+		font-weight: bold;
+	}
+	#latest-item a:hover {
+		text-decoration: none;
+		color: #C15B37
+	}
+	#latest-item a {
+		color: #807D7D
+	}

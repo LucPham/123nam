@@ -1,0 +1,313 @@
+/*
+	***********Rank Timeline
+	 **************************
+
+*/
+
+@media all and (max-width: 320px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {
+		width: 100%; 
+		height: 69px; 
+		margin-bottom: 5px; 
+		line-height: 47px; 
+		padding-top: 13px;
+		padding-left: 3px;
+		padding-right: 3px;
+		background-size: contain;
+	}
+
+	.rank-number {
+		width: 17%; 
+		height: 86%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.top-place a {background: #C9C3C3;}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {
+		width: 100%; 
+		height: 69px; 
+		margin-bottom: 5px; 
+		line-height: 47px; 
+		padding-top: 13px;
+		padding-left: 8px;
+		padding-right: 8px;
+		background-size: contain;
+	}
+
+	.rank-number {
+		width: 17%; 
+		height: 86%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.top-place a {background: #C9C3C3;}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {
+		width: 100%; 
+		height: 80px; 
+		margin-bottom: 5px; 
+		line-height: 67px; 
+		padding-top: 6px;
+		padding-left: 17px;
+		padding-right: 8px;
+		background-size: contain;
+	}
+
+	.rank-number {
+		width: 15%; 
+		height: 94%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.top-place a {background: #C9C3C3;}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+}
+
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {
+		width: 100%; 
+		height: 60px; 
+		margin-bottom: 5px; 
+		line-height: 50px; 
+		padding-top: 6px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-size: contain;
+	}
+
+	.rank-number {
+		width: 9%; 
+		height: 91%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.top-place a {background: #C9C3C3;}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+}
+
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {
+		width: 100%; 
+		height: 60px; 
+		margin-bottom: 5px; 
+		line-height: 50px; 
+		padding-top: 6px;
+		padding-left: 3px;
+		padding-right: 3px;
+		background-size: contain;
+	}
+
+	.rank-number {
+		width: 12%; 
+		height: 86%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.top-place a {background: #C9C3C3;}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+}
+
+@media all and (min-width: 1025px)
+{
+	.wrapp {width: 100%; height: auto; margin:0; padding-left: 8px;}
+	.rank-item {width: 100%; 
+		height: 60px; 
+		margin-bottom: 5px; 
+		line-height: 50px; 
+		padding-top: 6px;
+		background-size: contain
+	}
+	.rank-number {
+		width: 17%; 
+		height: 82%; 
+		float: left;
+		border-radius: 50%; 
+		background: #F26010;
+		text-align: center;
+	}
+	.rank-number a {
+		font-weight: bold;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #fff;
+	}
+	.rank-number a:hover {
+		text-decoration: none;
+	}
+	.place {
+		width: 78%; 
+		height: 100%; 
+		float: left;
+		padding-left: 9px;
+		overflow-y: hidden;
+	}
+	.place a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Roboto;
+		color: #131313;
+	}
+	.place a:hover {
+		color: #adc648;
+	}
+	.rank-score {width: 5%; height: 100%; float: left}
+	
+}

@@ -1,0 +1,764 @@
+/*------Timeline Detail--------*/
+
+body {
+	
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: Roboto;
+}
+.container-fluid {
+		padding: 0;
+}
+.contain-right ul li a:hover {
+	color: #adc648;
+}
+
+@media all and (max-width: 320px)
+{
+	nav {
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		margin: 0;
+		z-index: 4000;
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+	}
+	.brand {
+		width: 100%;
+		height: 70px;
+		position: relative;
+		float: left;
+		line-height: 70px;
+	}
+	.brand-hover {
+		background-color: #8FBD55;
+	}
+	.brand li {
+		float: right;
+		list-style: none;
+		margin-right: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+	}
+	
+	.contain-right {
+		width: 100%;
+		height: auto;
+		line-height: 70px;
+		float: left;
+		background: #fff;
+		display: none;
+	}
+	.toogle-true {
+		display: block;
+	}
+	.toogle-false {
+		display: none;
+	}
+	.contain-right ul {
+		margin: 0;
+		padding-left: 10px;
+	}
+	.contain-right ul li {
+		list-style: none;
+		border-bottom: solid 0.5px #E3DEDE;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: grey;
+		font-weight: bold;
+	}
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center center;
+		z-index: 3;
+	}
+	#avatar {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 50px;
+	}
+	#avatar img {
+		width: 90px;
+		height: auto;
+		border: #FFFFFF solid 5px;
+		margin:  auto;
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+		z-index: 100;
+	}
+	#avatar .emoji {
+		position: absolute;
+		width: 100%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul {
+		margin: 0;
+		padding-left: 27px;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+}
+
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	nav {
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		margin: 0;
+		z-index: 4000;
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+	}
+	.brand {
+		width: 100%;
+		height: 70px;
+		position: relative;
+		padding-left: 5px;
+		float: left;
+		line-height: 70px;
+	}
+	.brand-hover {
+		background-color: #8FBD55;
+	}
+	.brand li {
+		float: right;
+		list-style: none;
+		margin-right: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+	}
+	.contain-right {
+		width: 100%;
+		height: auto;
+		line-height: 70px;
+		float: left;
+		background: #fff;
+		display: none
+	}
+	.toogle-true {
+		display: block;
+	}
+	.toogle-false {
+		display: none;
+	}
+	.contain-right ul {
+		margin: 0;
+	}
+	.contain-right ul li {
+		list-style: none;
+		border-bottom: solid 0.5px #E3DEDE;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: grey;
+		font-weight: bold;
+	}
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		z-index: 100;
+	}
+	#avatar {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 50px;
+		z-index: 3000;
+	}
+	#avatar img {
+		width: 120px;
+		height: auto;
+		border: #FFFFFF solid 5px;
+		margin:  auto;
+
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	#avatar .emoji {
+		width: 50%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+
+	/*---------Nav------------*/
+	nav {
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		margin: 0;
+		z-index: 4000;
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+	}
+	.brand {
+		width: 100%;
+		height: 70px;
+		position: relative;
+		padding-left: 38px;
+		float: left;
+		line-height: 70px;
+	}
+	.brand-hover {
+		background-color: #8FBD55;
+	}
+	.brand li {
+		float: right;
+		list-style: none;
+		margin-right: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+	}
+	.contain-right {
+		width: 100%;
+		height: auto;
+		line-height: 70px;
+		float: left;
+		background: #fff;
+		display: none
+
+	}
+	.toogle-true {
+		display: block;
+	}
+	.toogle-false {
+		display: none;
+	}
+	.contain-right ul {
+		margin: 0;
+	}
+	.contain-right ul li {
+		list-style: none;
+		border-bottom: solid 0.5px #E3DEDE;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: grey;
+		font-weight: bold;
+	}
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		z-index: 100;
+	}
+	.cover-float {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		background: rgba(1, 1, 1, 0.6);
+		z-index: 100;
+	}
+	#avatar {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 70px;
+		z-index: 3000;
+	}
+	#avatar img {
+		width: 140px;
+		height: auto;
+		margin:  auto;
+		border: #FFFFFF solid 5px;
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	#avatar .emoji {
+		width: 50%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+	
+}
+
+
+@media all and (min-width: 601px) and (max-width: 800px) 
+{
+	nav {
+		width: 100%;
+		height: 110px;
+		margin: 0;
+		position: absolute;
+		z-index: 4000;
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+		
+	}
+	.brand {
+		width: 100%;
+		height: 70px;
+		position: relative;
+		padding-left: 38px;
+		float: left;
+		line-height: 70px;
+	}
+	.brand-hover {
+		background-color: #8FBD55;
+	}
+	.brand li {
+		float: right;
+		list-style: none;
+		margin-right: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+	}
+	.contain-right {
+
+		width: 100%;
+		height: auto;
+		line-height: 70px;
+		float: left;
+		background: #fff;
+		display: none
+	}
+	.toogle-true {
+		display: block;
+	}
+	.toogle-false {
+		display: none;
+	}
+	.contain-right ul {
+		margin: 0;
+		
+	}
+	.contain-right ul li {
+		list-style: none;
+		border-bottom: solid 0.5px #E3DEDE;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: grey;
+		font-weight: bold;
+
+	}
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		z-index: 100;
+	}
+	#avatar {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 70px;
+		z-index: 3000;
+	}
+	#avatar img {
+		width: 140px;
+		height: auto;
+		margin:  auto;
+		border: #FFFFFF solid 5px;
+	}
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 25px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	#avatar .emoji {
+		width: 50%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+}
+
+@media all and (min-width: 801px) and (max-width: 1024px) 
+{
+	nav {
+		width: 100%;
+		height: 80px;
+		margin: 0;
+		position: absolute;
+		z-index: 4000;
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+		overflow-y: hidden;
+	}
+	.brand {
+		width: 30%;
+		height: 100%;
+		position: relative;
+		float: left;
+		padding-left: 74px;
+		line-height: 70px;
+	}
+
+	.brand li {
+		display: none
+	}
+	.contain-right {
+		width: 70%;
+		height: 100%;
+		float: left;
+		line-height: 70px;
+	}
+	.contain-right ul li {
+		float: left;
+		list-style: none;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: #fff;
+		font-weight: bold;
+	}
+	.contain-right ul li:not(:first-child) {
+		margin-left: 40px
+	}
+	/*---------/Nav------------
+		*
+		*
+		*
+		* 1025px
+		*
+		*
+		*
+		*
+	*/
+
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+
+	}
+	#avatar {
+		position: relative;
+		width: 100%;
+		min-height: 700px;
+		margin: auto;
+		top: 150px;
+		z-index: 3000;
+	}
+	#avatar img {
+		width: 240px;
+		height: auto;
+		margin:  auto;
+		border: #FFFFFF solid 5px;
+	}
+	.title {
+		position: absolute;
+		width: 100%;
+		bottom: 40px;
+		text-align: center;
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 35px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #fff;
+	}
+	#avatar .emoji {
+		width: 50%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+}
+
+@media all and (min-width: 1025px)
+{
+	/*---------Nav------------
+		*
+		*
+		*
+		*
+		*
+		*
+		*
+	*/
+	nav {
+		width: 100%;
+		height: 80px;
+		margin: 0;
+		position: absolute;
+		border: none;
+		z-index: 4000;
+		background: rgba(1,1,1,0.1);
+	}
+	.wrapp-menu {
+		width: 100%;
+		height: 100%;
+	}
+	.brand {
+		width: 20%;
+		height: 100%;
+		position: relative;
+		float: left;
+		padding-left: 74px;
+		line-height: 70px;
+	}
+	.brand li {
+		display: none
+	}
+	.contain-right {
+		width: 70%;
+		height: 100%;
+		float: left;
+		line-height: 70px;
+		display: block;
+	}
+	.contain-right ul li {
+		float: left;
+		list-style: none;
+	}
+	.contain-right ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Roboto;
+		color: #fff;
+		font-weight: bold;
+	}
+	.contain-right ul li:not(:first-child) {
+		margin-left: 40px
+	}
+	/*---------/Nav------------
+		*
+		*
+		*
+		* 1025px
+		*
+		*
+		*
+		*
+	*/
+
+	/*---------Cover------------
+		*
+		* Title
+		*
+		* Emoji
+		* 
+		* 1025px
+		*
+		*
+	*/
+	#cover {
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+	}
+	#avatar {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 212px;
+		z-index: 200;
+	}
+	#avatar img {
+		width: 240px;
+		height: auto;
+		margin:  auto;
+		border: #FFFFFF solid 5px;
+	}
+	.title {
+		position: relative;
+		width: 100%;
+		height: 180px;
+		bottom: 0;
+		text-align: center;
+		z-index: 3000;
+		padding-top: 40px;
+		margin-top: -180px;
+		background: rgba(1,1,1,0.1);
+	}
+	.title h2 {
+		font-family: Roboto;
+		font-size: 35px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #fff;
+	}
+	#avatar .emoji {
+		width: 50%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.emoji .e-card {
+		width: 25%;
+		float: left;
+	}
+	.emoji .e-card ul li {
+		list-style: none;
+		color: #fff;
+	}
+}

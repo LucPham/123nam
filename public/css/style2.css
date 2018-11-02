@@ -1,0 +1,69 @@
+body
+{
+	font-family: 'Open Sans',arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.ie {
+	width: 400px;
+	height: auto;
+	margin: auto;
+}
+a:hover
+{
+	text-decoration: none;
+}
+
+.btn_xem_them
+{
+	background-color: #fff;
+	width: 220px;
+	border: solid 1px #C0BBBB;
+	border-radius: 5px;
+	color: #000;
+
+	-moz-background-color: #fff;
+	-moz-width: 220px;
+	-moz-border: solid 1px #C0BBBB;
+	-moz-border-radius: 5px;
+	-moz-color: #000;
+}
+.side-left
+{
+	color: #fff
+}
+.side-right
+{
+	color: #fff
+}
+.brand_dangky
+{
+	font-family: Impact, Charcoal, sans-serif; 
+	font-weight: bold; 
+	font-size: 30px;
+	width: 300px;
+}
+.brand_dangky a
+{
+	color: #fff;
+}
+a .tieu_de_tin_moi_nhat:hover
+{
+	color: #68c62d;
+	font-weight: bold;
+}
+.tieu_de_tin_moi_nhat
+{
+	color: #737272
+}
+.img_chuyen_muc_tin
+	{
+		max-width: 130px;
+		max-height: 120px;
+	}
+
+/*--- DROPDOWN HOVER---*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }

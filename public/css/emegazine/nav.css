@@ -1,0 +1,395 @@
+@media all and (max-width: 320px)
+{
+	#wrapp {
+		width: 100%;
+		height: 40px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 12;
+	}
+	#main {
+		width: 100%;
+		position: relative;
+		margin: auto;
+		color: #fff;
+	}
+	#logo {
+		width: 30%;
+		height: 40px;
+		float: left;
+	}
+	#emegazineLogo {
+		width: 70%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		text-align: center;
+	}
+	#emegazineLogo span {
+		font-size: 1.7em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		display: none;
+	}
+	#menu-social-mobile {
+		width: 100%;
+		height: 40px;
+		overflow-x: hidden;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	#fbshare {
+		width: 30%;
+		height: 40px;
+		float: left;
+	}
+	#google {
+		width: 30%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		margin-left: 5px;
+	}
+	#fblike {
+		width: 30%;
+		height: 40px;
+		float: left;
+		padding: 3px;
+		margin-left: 5px;
+	}
+
+}
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+	#wrapp {
+		width: 100%;
+		height: 40px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 12;
+	}
+	#main {
+		width: 90%;
+		position: relative;
+		margin: auto;
+		color: #fff;
+	}
+	#logo {
+		width: 30%;
+		height: 40px;
+		float: left;
+	}
+	#emegazineLogo {
+		width: 70%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		text-align: center;
+	}
+	#emegazineLogo span {
+		font-size: 1.7em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		display: none;
+	}
+	#menu-social-mobile {
+		width: 100%;
+		height: 40px;
+		overflow-x: hidden;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	#fbshare {
+		width: 30%;
+		height: 40px;
+		float: left;
+	}
+	#google {
+		width: 30%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		margin-left: 5px;
+	}
+	#fblike {
+		width: 30%;
+		height: 40px;
+		float: left;
+		padding: 3px;
+		margin-left: 5px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+	#wrapp {
+		width: 100%;
+		height: 40px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 12;
+	}
+	#main {
+		width: 90%;
+		position: relative;
+		margin: auto;
+		color: #fff;
+	}
+	#logo {
+		width: 40%;
+		height: 40px;
+		float: left;
+	}
+	#emegazineLogo {
+		width: 60%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		text-align: center;
+	}
+	#emegazineLogo span {
+		font-size: 1.7em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		display: none;
+	}
+	#menu-social-mobile {
+		width: 100%;
+		height: 40px;
+		overflow-x: hidden;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	#fbshare {
+		width: 30%;
+		height: 40px;
+		float: left;
+	}
+	#google {
+		width: 30%;
+		height: 40px;
+		float: left;
+		line-height: 40px;
+		margin-left: 5px;
+	}
+	#fblike {
+		width: 30%;
+		height: 40px;
+		float: left;
+		padding: 3px;
+		margin-left: 5px;
+	}
+}
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+	#wrapp {
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 12;
+	}
+	#main {
+		width: 100%;
+		position: relative;
+		margin: auto;
+		color: #fff;
+	}
+	#menu-social-mobile {
+		display: none
+	}
+	#logo {
+		width: 20%;
+		height: 50px;
+		float: left;
+	}
+	#emegazineLogo {
+		width: 30%;
+		height: 50px;
+		float: left;
+		line-height: 50px;
+		text-align: center;
+	}
+	#emegazineLogo span {
+		font-size: 1.8em;
+		font-weight: bold;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		width: 50%;
+		height: 50px;
+		float: left;
+		padding-left: 10px;
+	}
+	#fbshare {
+		width: 30%;
+		height: 50px;
+		float: left;
+		padding-top: 15px;
+	}
+	#google {
+		width: 30%;
+		height: 50px;
+		float: left;
+		line-height: 50px;
+		padding-top: 7px;
+	}
+	#fblike {
+		width: 30%;
+		height: 50px;
+		float: left;
+		padding-top: 15px;
+	}
+
+}
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+	#wrapp {
+		width: 100%;
+		height: 60px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 12;
+	}
+	#main {
+		width: 90%;
+		position: relative;
+		margin: auto;
+		color: #fff;
+	}
+	#menu-social-mobile {
+		display: none
+	}
+	#logo {
+		width: 20%;
+
+	}
+	#logo {
+		width: 20%;
+		height: 50px;
+		float: left;
+		padding-top: 5px;
+	}
+	#logo img {
+		line-height: 50px;
+	}
+	#emegazineLogo {
+		width: 30%;
+		height: 50px;
+		float: left;
+		line-height: 50px;
+		text-align: center
+	}
+	#menu-social-mobile {
+		display: none
+	}
+	#emegazineLogo span {
+		color: #fff;
+		font-size: 2.1em;
+		font-weight: bolder;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		width: 50%;
+		height: 50px;
+		float: left;
+	}
+	#fbshare {
+		width: 30%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+	#google {
+		width: 25%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+	#fblike {
+		width: 25%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+}
+@media all and (min-width: 1025px)
+{
+	#wrapp {
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #151515;
+		z-index: 9;
+	}
+	#main {
+		width: 90%;
+		margin: auto;
+	}
+	#logo {
+		width: 20%;
+		height: 50px;
+		float: left;
+		padding-top: 5px;
+	}
+	#logo img {
+		line-height: 50px;
+	}
+	#menu-social-mobile {
+		display: none
+	}
+	#emegazineLogo {
+		width: 30%;
+		height: 50px;
+		float: left;
+		line-height: 50px;
+		text-align: center
+	}
+	#emegazineLogo span {
+		color: #fff;
+		font-size: 2.1em;
+		font-weight: bolder;
+		font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
+	}
+	#social {
+		width: 50%;
+		height: 50px;
+		float: left;
+	}
+	#fbshare {
+		width: 30%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+	#google {
+		width: 25%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+	#fblike {
+		width: 25%;
+		height: 50px;
+		float: left;
+		padding-top: 12px;
+	}
+
+}

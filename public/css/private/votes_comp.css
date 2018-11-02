@@ -1,0 +1,994 @@
+/*
+ * Votes Components	
+
+ *
+
+ *		
+	
+*/
+#vote  .vote-icon span { cursor: pointer; }
+#vote  .vote-icon span:hover { color: #F3AB1F }
+.star-light { color: #F3AB1F; }
+#vote .score h3 {color: #adc648;}
+
+.hover {color: #F3AB1F}
+
+
+@media all and (max-width: 320px)
+{
+
+    /**@Linear*/
+    .linear {
+        width: 100%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-half-point {
+        width: 82%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 73%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point {
+        width: 66%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 58%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 51%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 41%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 35%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 26%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 19%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+
+	#vote {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 320px;
+		text-align: center;	
+	}
+	#vote h2 {
+		font-family: Roboto;
+	}
+	#vote .vote-icon {
+		width: 100%;
+		height: auto;
+		margin: auto;
+		z-index: 300;
+		font-size: 40px;
+	}
+
+	
+	#vote .vote-icon ul li:not(:first-child) {
+		margin-left: 20px;
+	}
+	#vote .score {
+		width: 50%;
+		height: auto;
+		margin: auto;
+		text-align: center;
+	}
+	#vote .score h2 {
+		font-family: Roboto;
+	}
+
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 97px; width: auto}
+
+    /**
+	    Pop up
+	*/
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 290px;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 15px;
+        top: 138px;
+        background-color: #fff;
+        display: none;
+    }
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 480px)
+{
+
+    .linear-half-point {
+        width: 77.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 71%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point {
+        width: 64.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 58%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 50.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 43%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 36.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 29%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 22.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+	#vote {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 420px;
+		text-align: center;	
+	}
+	#vote h2 {
+		font-family: Roboto;
+	}
+	#vote .vote-icon {
+		
+		width: 100%;
+		height: 40px;
+		z-index: 300;
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+	#vote .vote-icon ul {
+		margin: 0;
+	}
+	
+	#vote  .vote-icon ul li:hover {
+		color: #F3AB1F
+	}
+	#vote .vote-icon ul li:not(:first-child) {
+		margin-left: 20px;
+	}
+	#vote .score {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		display: block
+	}
+	#vote .score h2 {
+		font-family: Roboto;
+	}
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 113px; width: auto}
+    /**
+	    Pop up
+	*/
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 80%;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 12%;
+        top: 138px;
+        background-color: #fff;
+        display: none;
+    }   
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 600px)
+{
+    /**@Linear*/
+
+    .linear-half-point {
+        width: 71%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 66%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point{
+        width: 60.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 56%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 50.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 45%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 40.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 35%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 30%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+
+
+	#vote {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 620px;
+		text-align: center;	
+	}
+	#vote h2 {
+		font-family: Roboto;
+	}
+	#vote .vote-icon {
+		
+		width: 100%;
+		height: 40px;
+		z-index: 300;
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+	#vote .vote-icon ul {
+		margin: 0;
+	}
+	
+	#vote  .vote-icon ul li:hover {
+		color: #F3AB1F
+	}
+	#vote .vote-icon ul li:not(:first-child) {
+		margin-left: 20px;
+	}
+	#vote .score {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		display: block
+	}
+	#vote .score h2 {
+		font-family: Roboto;
+	}
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 130px;width: auto;}
+    /**
+	    Pop up
+	*/
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 80%;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 12%;
+        top: 138px;
+        background-color: #fff;
+        display: none;
+    }
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px)
+{
+    /**@Linear*/
+
+
+    .linear-half-point {
+        width: 63.2%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 62%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point{
+        width: 56.8%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 54%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 50.2%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 46%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 43.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 39%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 37.2%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+	#vote {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 620px;
+		text-align: center;
+
+	}
+	#vote h2 {
+		font-family: Roboto;
+	}
+	#vote .vote-icon {
+		
+		width: 100%;
+		height: 40px;
+		z-index: 300;
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+	#vote .vote-icon ul {
+		margin: 0;
+	}
+	
+	#vote  .vote-icon ul li:hover {
+		color: #F3AB1F
+	}
+	#vote .vote-icon ul li:not(:first-child) {
+		margin-left: 20px;
+	}
+	#vote .score {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		display: block
+	}
+	#vote .score h2 {
+		font-family: Roboto;
+	}
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 190px;width: auto;}
+    /**
+	    Pop up
+	*/
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 60%;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 20%;
+        top: 138px;
+        background-color: #fff;
+        display: none;
+    }
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+}
+
+@media all and (min-width: 801px) and (max-width: 1024px)
+{
+    /**@Linear*/
+    .linear {
+        width: 100%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-half-point {
+        width: 60%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 57.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point{
+        width: 55%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 52.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 50.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 48%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 45.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 43%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 40.4%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+
+
+
+	#vote {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 120px;
+		text-align: center;	
+	}
+	#vote h2 {
+		font-family: Roboto;
+	}
+	#vote .vote-icon {
+		
+		width: 100%;
+		height: 40px;
+		z-index: 300;
+		display: block;
+		text-align: center;
+		font-size: 40px;
+	}
+	#vote .vote-icon ul {
+		margin: 0;
+	}
+	
+	#vote  .vote-icon ul li:hover {
+		color: #F3AB1F
+	}
+	#vote .vote-icon ul li:not(:first-child) {
+		margin-left: 20px;
+	}
+	#vote .score {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		display: block
+	}
+	#vote .score h2 {
+		font-family: Roboto;
+	}
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 95px;width: auto;}
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 60%;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 20%;
+        top: 138px;
+        background-color: #fff;
+        display: none;
+    }
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+}
+
+
+@media all and (min-width: 1025px)
+{
+
+	
+	/*---Thumbnail-*/
+	.thumbnail-card img {height: 160px;width: auto;}
+
+	/**
+	    Pop up
+	*/
+    .overLoadScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background: rgba(1,1,1,0.5);
+        display: none;
+    }
+    .notify-box {
+        width: 320px;
+        height: 50px;
+        position: fixed;
+        z-index: 11000;
+        left: 520px;
+        top: 102px;
+        background-color: #fff;
+        display: none;
+    }
+    .notify-box .info {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    /**@Linear vote*/
+
+    #vote .vote-icon {
+
+        width: 240px;
+        height: 40px;
+        margin: auto;
+        z-index: 300;
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        z-index: 600;
+    }
+    #vote {
+        width: auto;
+        height: auto;
+        display: block;
+        margin-top: 120px;
+        text-align: center;
+    }
+    #vote h2 {
+        font-family: Roboto;
+    }
+
+    #vote .score {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+    #vote .score h3 {
+        font-family: Roboto;
+        font-weight: bold;
+    }
+
+
+    /**
+        @Point Vote Style
+    */
+
+
+    /**@Linear*/
+    .linear-half-point {
+        width: 57.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-point {
+        width: 55.5%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-one-half-point{
+        width: 53.8%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-point {
+        width: 52.1%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-two-half-point {
+        width: 50.1%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-point {
+        width: 48.4%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-three-half-point {
+        width: 46.4%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-point {
+        width: 44.7%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-four-half-point {
+        width: 42.7%;
+        height: 50px;
+        right: 0;
+        background-color: #fff;
+        position: absolute;
+        z-index: 700;
+        opacity: 0.6;
+    }
+    .linear-five-point {
+        display: none;
+    }
+
+
+
+}
