@@ -1,0 +1,11 @@
+template += '<div class="demo-card demo-card--step'+(i+1)+'">'+
+                               '<div class="head">'+
+                                '<div class="number-box"><span>0'+(i+1)+'</span></div>'+
+                                    '<a href="url"><h2><span>'+dataLoad[i].date+'</span>'+dataLoad[i]["places_title"]+'</h2></a>'+
+                                '</div>'+
+
+                               '<div class="body">'+
+                               '<p>'+dataLoad[i]["description"]+'</p>'+
+                               '<a href="#"><img src="http://placehold.it/1000x500"></a>'+
+                               '</div>'+
+                               '</div>';

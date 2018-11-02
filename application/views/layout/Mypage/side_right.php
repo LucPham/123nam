@@ -1,0 +1,1 @@
+<img src="<?php echo base_url('public/hinh_tieu_de/1462981584-55a2e33a5d4d6a70f5144181c28eacb0_1452855672.jpg') ?>" class="img-responsive" style="height: 100%">
